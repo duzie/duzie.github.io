@@ -4,7 +4,7 @@
 
         <h2>About ME</h2>
 
-        <p>程序员，会一些简单的增删改查，从JS到SQL都可以理解一点。</p>
+        <p>程序员，会一些简单的增删改查，从JS到SQL都可以写一点。</p>
 
         <h2>Contact</h2>
 
@@ -15,26 +15,26 @@
 
         <h2>Skill Keywords</h2>
 
-        {% if site.skill_software_keywords %}
+        {% if site.skill_java_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Software Engineer Keywords</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_software_keywords %}
+                {% for keyword in site.skill_java_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
 
-        {% if site.skill_j2ee_keywords %}
+        {% if site.skill_database_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">J2EE Developer Keywords</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
+                {% for keyword in site.skill_database_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>

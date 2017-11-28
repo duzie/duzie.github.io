@@ -82,7 +82,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_java_keywords: [Spring, SpringBoot, MyBatis, Hibernet, JSP, Maven]
+skill_java_keywords: [Spring, SpringBoot, MyBatis, Hibernet, JSP, Maven, Jdbc]
 skill_database_keywords: [Oracle, PL/SQL, MySQL, H2]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Boostrap, BUI]
 skill_mobile_app_keywords: [Cordova, Android, IOS, 微信]
