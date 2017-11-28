@@ -67,6 +67,10 @@ navs:
     href: /bookmark
     label: Bookmark
 
+ -
+    href: /blacklist
+    label: Blacklist
+
   -
     href: /about
     label: About
