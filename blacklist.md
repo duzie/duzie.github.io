@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Blacklist
 subtitle: 一些不要去面试的公司，浪费时间
 menu: Bookmark
