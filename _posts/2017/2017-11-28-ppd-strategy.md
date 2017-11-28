@@ -5,11 +5,9 @@ category: ppd
 tags: [拍拍贷]
 ---
 
+拍拍贷系统9月份更新后，最低起投为50元，但后台代码没有更新，还可以设置为20元。
 
-
-拍拍贷自动投标设置为20元，系统9月份更新后，最低起投为50元，但后台代码没有更新，还可以设置为20元。
-
-## Setup
+## 很简单的哟
 
 设置页面　[http://invest.ppdai.com/AutoBidManage/StrategyList](http://invest.ppdai.com/AutoBidManage/StrategyList)
 
