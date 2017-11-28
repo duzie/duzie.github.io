@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: post
 title: Blacklist
 subtitle: 一些不要去面试的公司，浪费时间
-menu: Bookmark
+menu: Blacklist
 ---
 
 ## 史蒂夫软件（深圳）有限公司
