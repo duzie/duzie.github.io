@@ -23,6 +23,7 @@ function query(){
     $.post('http://strategy.ppdai.com/forward/forwardreq',
         {'Target':'strategyList-getStrategyList','RequestBody':'{"pageIndex":1,"pageSize":10,"rangeList":[],"nickName":"","sort":4}'},
         function(data){
+            data = $.parseJSON(data);
             var list = data.data.strategyList;
             for(i = 0; i < list.length; i++){
                 if(list[i].funding < 200){
