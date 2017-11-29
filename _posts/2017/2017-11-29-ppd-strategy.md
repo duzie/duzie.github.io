@@ -16,7 +16,7 @@ tags: [拍拍贷]
 _ = document.createElement("script"); _.src = "https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"; document.body.appendChild(_); _.onload = function () { main() };
 
 function main(){
-    setInterval(query,5000);
+    setInterval(query,10000);
 }
 
 function query(){

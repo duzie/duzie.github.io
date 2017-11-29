@@ -1,2 +1,4 @@
 
 _config.yml
+.DS_Store
+.vscode/settings.json
