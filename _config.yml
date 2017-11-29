@@ -7,7 +7,6 @@
 
 # Site settings
 
-
 title: welcome !
 name: F
 email: ...@qq.com
@@ -92,5 +91,3 @@ skill_java_keywords: [Spring, SpringBoot, MyBatis, Hibernet, JSP, Maven, Jdbc, D
 skill_database_keywords: [Oracle, PL/SQL, MySQL, H2]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Boostrap, BUI]
 skill_mobile_app_keywords: [Cordova, 微信, Android, IOS]
-
-theme: jekyll-theme-hacker
