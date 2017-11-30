@@ -74,6 +74,8 @@ function buy(){
     });
 }
 
-setInterval(buy,10000);
+function main(){
+    setInterval(buy,10000);
+}
 
 ```
