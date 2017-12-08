@@ -7,7 +7,7 @@ tags: [chrome,close]
 
 写插件时，某些情况下Chrome通过window.close关不了窗口，用插件的功能来关闭。
 
-# 主要通过chrome tabs remove来完成
+# 步骤
 
 window页面向插件background通信，background里面可以对Chrome页签进行关闭操作。
 
