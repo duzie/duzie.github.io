@@ -5,11 +5,11 @@ category: apache
 tags: [httpd,proxy]
 ---
 
- 小机器多用途，当然也可以转到其它机器
+主要就是不想加端口，没有复杂的原因
 
-# 主要就是不想加端口，没有复杂的原因
+# 小机器多用途，当然也可以转到其它机器
 
-apache httpd 对其它机器转发，centos安装httpd后发现默认就LoadModule所有，所以配置就不用开这开那了
+用apache httpd对其它机器转发来搞。
 
 ## 安装httpd
 
@@ -21,7 +21,9 @@ yum -y install httpd
 
 ## 修改配置文件
 
- 找到这个文件/ect/httpd/conf/httpd.conf
+centos安装httpd后发现默认就LoadModule所有，所以配置就不用开这开那了。
+
+找到这个文件/ect/httpd/conf/httpd.conf
 
 ```conf
 NameVirtualHost *:80
